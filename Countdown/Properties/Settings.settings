@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Countdown.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DateFrom" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">02/21/2018 21:00:00</Value>
+    </Setting>
+    <Setting Name="DateTo" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">07/31/2018 12:00:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
