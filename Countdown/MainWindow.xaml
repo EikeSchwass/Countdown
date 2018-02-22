@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Countdown"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="Countdown" SizeToContent="Height" ResizeMode="NoResize" Width="450" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+        Title="Countdown" SizeToContent="Height" ResizeMode="NoResize" Width="500" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
   <Window.Resources>
     <Style TargetType="TextBlock">
       <Setter Property="Margin" Value="8" />
@@ -72,9 +72,9 @@
             <xctk:Pie Grid.Column="0" Height="200" Width="200" Fill="DarkGreen" Stroke="Black" StrokeThickness="2" StartAngle="-90" EndAngle="{Binding PassedTimeAngle, Mode=OneWay}" />
             <xctk:Pie Grid.Column="0" Height="200" Width="200" Fill="OrangeRed" Stroke="Black" StrokeThickness="2" StartAngle="{Binding PassedTimeAngle, Mode=OneWay}" EndAngle="270" />
             <StackPanel Grid.Column="1" VerticalAlignment="Center" >
-              <TextBlock Text="Vergangen" Foreground="DarkGreen" FontWeight="Bold" Margin="8,8,8,0" />
+              <TextBlock Text="Vergangen" Foreground="DarkGreen" FontWeight="Bold" Margin="8,8,8,0" FontSize="15" />
               <TextBlock Text="{Binding Ellapsed, Mode=OneWay}" Foreground="DarkGreen" FontWeight="Bold" Margin="8,2,8,8" />
-              <TextBlock Text="Verbleibend" Foreground="OrangeRed" FontWeight="Bold" Margin="8,8,8,0" />
+              <TextBlock Text="Verbleibend" Foreground="OrangeRed" FontWeight="Bold" Margin="8,8,8,0" FontSize="15" />
               <TextBlock Text="{Binding Remaining, Mode=OneWay}" Foreground="OrangeRed" FontWeight="Bold" Margin="8,2,8,8" />
             </StackPanel>
           </Grid>

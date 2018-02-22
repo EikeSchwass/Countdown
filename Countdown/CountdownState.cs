@@ -111,6 +111,7 @@ namespace Countdown
                 PassedTimeAngle = -90 + Progress * 360;
                 if (Progress >= 1)
                     break;
+                Task.Delay(50).Wait();
             }
         }
 
